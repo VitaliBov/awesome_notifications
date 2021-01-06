@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050F5552251EB1AC00E49A15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050F5551251EB1AC00E49A15 /* GoogleService-Info.plist */; };
 		05415A28250185980031D9F2 /* AwesomeNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05415A27250185980031D9F2 /* AwesomeNotificationsTests.swift */; };
 		05424102256D61EF00465B50 /* awesome_notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05424101256D61EF00465B50 /* awesome_notifications.framework */; };
 		054924FD2543202F0056445E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054924FC2543202F0056445E /* NotificationService.swift */; };
@@ -29,6 +28,7 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		BC422CF325A5D8DF00A6C8FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC422CF225A5D8DF00A6C8FF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +98,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		050F5551251EB1AC00E49A15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		050F555C2520F02900E49A15 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		050F555E2520F02900E49A15 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		05415A1A250185980031D9F2 /* AwesomeNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeNotifications.h; sourceTree = "<group>"; };
@@ -146,6 +145,7 @@
 		A81CF76D51212BFCBB0F5980 /* Pods-AwesomeContentExtension.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeContentExtension.profile.xcconfig"; path = "Target Support Files/Pods-AwesomeContentExtension/Pods-AwesomeContentExtension.profile.xcconfig"; sourceTree = "<group>"; };
 		ACF410E964C9D7EA4EE9FFF1 /* Pods-AwesomeServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeServiceExtension/Pods-AwesomeServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		BB522099BC6E9978F842EA71 /* Pods-AwesomeServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-AwesomeServiceExtension/Pods-AwesomeServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		BC422CF225A5D8DF00A6C8FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F445988E9A634ABC40095CF1 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -314,6 +314,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				BC422CF225A5D8DF00A6C8FF /* GoogleService-Info.plist */,
 				05C131782555C8FB00DEA7C2 /* res_morph_power_rangers.aiff */,
 				05EEBE082538EB7200E17CF5 /* Runner.entitlements */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
@@ -325,7 +326,6 @@
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
-				050F5551251EB1AC00E49A15 /* GoogleService-Info.plist */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -528,9 +528,9 @@
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				05C131792555C8FB00DEA7C2 /* res_morph_power_rangers.aiff in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				050F5552251EB1AC00E49A15 /* GoogleService-Info.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				BC422CF325A5D8DF00A6C8FF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
